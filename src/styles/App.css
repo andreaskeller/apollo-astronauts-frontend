@@ -8,6 +8,9 @@
 .container {
   height: 100%;
   background-color: #0d1116;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a8/NASA-Apollo8-Dec24-Earthrise.jpg");
+  background-size: cover;
+  background-position: center center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,7 +32,9 @@
 }
 
 .gradient-text {
-  background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%);
+  /* background: -webkit-linear-gradient(left, #60c657 30%, #35aee2 60%); */
+  background-color: #fff;
+  color: #0d1116;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -49,26 +54,38 @@
 }
 
 .connect-wallet-button {
-  background: -webkit-linear-gradient(left, #60c657, #35aee2);
+  /* background: -webkit-linear-gradient(left, #60c657, #35aee2); */
+  background-color: #fff;
+  color: #0d1116;
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
 }
 
 .mint-button {
-  background: -webkit-linear-gradient(left, #a200d6, #ff6fdf);
+  /* background: -webkit-linear-gradient(left, #a200d6, #ff6fdf); */
+  background-color: #fff;
+  color: #0d1116;
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-right: 15px;
 }
 
 .opensea-button {
-  background-color: rgb(32, 129, 226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
 }
 
 .mint-count {
   color: white;
   font-size: 18px;
   font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
 }
 
 .footer-container {
